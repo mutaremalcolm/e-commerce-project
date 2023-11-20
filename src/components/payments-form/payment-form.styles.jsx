@@ -8,7 +8,7 @@ export const PaymentFormContainer = styled.div`
     justify-content: center;  
 `;
 
-export const FormContainer = styled.form`
+export const FormContainer = styled.div`
     height: 100px;
     min-width: 500px; 
 `;

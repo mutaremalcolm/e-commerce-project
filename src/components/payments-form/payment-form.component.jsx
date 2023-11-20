@@ -30,7 +30,7 @@
 
     setIsProcessingPayment(true);
 
-        const response = await fetch('/.netlify/functions/create-payment-intent',  {
+        const response = await fetch('/.netlify/functions/create-payment-intent.js',  {
         method: 'post',
         headers: {
             'Content-Type': 'application/json'
@@ -74,7 +74,7 @@
              buttonType={ BUTTON_TYPES_CLASSES.inverted }
              > 
               {' '}
-             Pay Now {' '} </Button>
+             Pay Now {' '} </Button> 
             </FormContainer> 
         </PaymentFormContainer>
     )
