@@ -27,11 +27,12 @@ export const FrontSplashContainer = styled.div`
 
 export const HeadingContainer = styled.div`
 
-  grid-column: 0 / 1;
+  grid-column: 0/ 1;
   background-color: #89cff0;
   padding-left: 18px;
   padding-right: 18px;
   padding-bottom: 20px;
+  
 
     p {
         text-align: center;
@@ -47,12 +48,9 @@ export const HeadingContainer = styled.div`
 `;
 
 
-
-
 export const BigHeadingContainer = styled.div`
-    grid-row: 1 / 3;
-    grid-column: 1 / 2;
-    border: 2px solid #628045;
+    grid-row: 0 / 2;
+    grid-column: 0 / 2;
     background-color: #89cffa;
 
     padding-left: 18px;
@@ -183,10 +181,11 @@ export const SaleBanner = styled.div`
 
 export const SaleHeading = styled(StyledParagraph)`
     color: #FFFFFF;
-    font-family: Sans-Serif;
+    font-family: Courier;
     font-size: calc(0.5rem + 1vw);
     font-weight: 700;
     text-align: center;
+    
 
     @media (max-width: 640px) {
         margin-left: 20px;

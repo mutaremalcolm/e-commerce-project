@@ -26,7 +26,7 @@ import {
             {slides.map((slide, index) => (
               <EmblaSlide key={index}>
                 <EmblaSlideImage
-                  src={imageByIndex(index)}
+                  src={imageByIndex(index)} 
                   alt="scrolling image"
                 ></EmblaSlideImage>
   
