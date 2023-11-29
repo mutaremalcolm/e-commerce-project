@@ -47,8 +47,8 @@ export const EmblaSlideImage = styled.img `
 
 export const EmblaSlideOverlay = styled.div `
   position: absolute;
-  top: 6%;
-  left: 3%;
+  top: 0%;
+  left: 30%;
 
   background-color: #89cff0;
 
