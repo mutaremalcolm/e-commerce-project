@@ -41,23 +41,8 @@ const Footer = () => {
                     <ColumnEntry onClick={onNavigateHandler}>
                         <ul>
                             <li>Our Story </li>
-                            <li>Elite Membership </li>
-                            <li>Elite Benefits </li>
-                            <li>BulkBasics Ambassador </li>
                         </ul>
                     </ColumnEntry>
-                    
-                    {/* SHOPPING */}
-                    <ColumnHeading>SHOPPING</ColumnHeading>
-                    <ColumnEntry onClick={onNavigateHandler}>
-                        <ul>
-                            <li>Retail Store </li>
-                            <li>Gift Cards </li>
-                            <li>Brands </li>
-                            <li>Gift Registery </li>
-                        </ul>
-                    </ColumnEntry>
-
                 </ColumnSection1>
 
 
@@ -67,49 +52,16 @@ const Footer = () => {
                     <ColumnHeading>CUSTOMER SERVICES</ColumnHeading>
                     <ColumnEntry onClick={onNavigateHandler}>
                         <ul>
-                            <li>Custom Quotes </li>
                             <li>Checkout FAQ </li>
                             <li>Track Your Order </li>
                             <li>Returns & Cancellations </li>
                             <li>Shopping </li>
                             <li>Product Policies </li>
                             <li>Warranty Information </li>
-                            <li>Suggestion Box </li>
-                            <li>Report Website Issues </li>
-                            <li>Customer Survey </li>
                         </ul>
                     </ColumnEntry>
 
                 </ColumnSection2>
-
-
-                {/* Column 3  */}
-                <ColumnSection3>
-                    {/* POLICIES & NOTICES */}
-                    <ColumnHeading>POLICIES & NOTICES</ColumnHeading>
-                    <ColumnEntry onClick={onNavigateHandler}>
-                        <ul>
-                            <li>Recall Information </li>
-                            <li>Privacy Policy </li>
-                            <li>Terms of Use </li>
-                            <li>Accessibility </li>
-                            <li>Covid-19 </li>
-                        </ul>
-                    </ColumnEntry>
-
-                    {/* OTHER INFO */}
-                    <ColumnHeading>OTHER INFO</ColumnHeading>
-                    <ColumnEntry onClick={onNavigateHandler}>
-                        <ul>
-                            <li>Affiliates </li>
-                            <li>Roque Financing </li>
-                            <li>Contract Info </li>
-                            <li>Distribution </li>
-                        </ul>
-                    </ColumnEntry>
-
-                </ColumnSection3>
-
 
                 {/* Column 4  */}
                 <ColumnSection4>
@@ -117,15 +69,15 @@ const Footer = () => {
                     {/* CONTACT US */}
                     <ColumnHeading>CONTACT US</ColumnHeading>
                     <ColumnEntry>
-                        <p><strong>Customer Care:</strong><br/>123-456-789 </p>
+                        <p><strong>Customer Care:</strong><br/>228-556-445 </p>
                         <br/>
-                        <p><strong>Business Number:</strong><br/>123-456-789 </p>
+                        <p><strong>Business Number:</strong><br/>555-222-333 </p>
                         <br/>
-                        <p><strong>Fax:</strong><br/>987-654-321 </p>
+                        <p><strong>Fax:</strong><br/>555-444-333 </p>
                         <br/>
-                        <p><strong>Bulk Basics HQ</strong></p>
-                        <p>123 4th Ave.</p>
-                        <p>Earth, 9876</p>
+                        <p><strong>Mango Store HQ</strong></p>
+                        <p>888 66th Ave.</p>
+                        <p>Earth, 1111</p>
                     </ColumnEntry>
 
                 </ColumnSection4>
@@ -136,7 +88,7 @@ const Footer = () => {
                     {/* CONNECT WITH US */}
                     <ColumnHeading>CONNECT WITH ME </ColumnHeading>
 
-                    <p>Devon Gifford</p>
+                    <p>Malcoolm Mutare</p>
 
 
                     {/* SOCIAL MEDIA */}
@@ -145,7 +97,7 @@ const Footer = () => {
 
                         {/* Github Icon */}
                         <a 
-                            href="https://github.com/DevonGifford" 
+                            href="https://github.com/mutaremalcolm" 
                             target='_blank'
                             >
                             <ImageContainer>
@@ -154,7 +106,7 @@ const Footer = () => {
                         </a>
                         
                         {/* LinkedIn Icon */}
-                        <a href="https://www.linkedin.com/in/dbgifford/" target='_blank'>
+                        <a href="https://linkedin.com/in/malcolm-mutare-a234a61aa" target='_blank'>
                             <ImageContainer>
                                 <BsLinkedin />
                             </ImageContainer>
@@ -169,7 +121,7 @@ const Footer = () => {
                         </a>
 
                         {/* Twitter Icon */}
-                        <a href="https://twitter.com/devon_gifford" target='_blank'>
+                        <a href="https://twitter.com/MalcolmTech" target='_blank'>
                             <ImageContainer>
                                 <TiSocialTwitter />
                             </ImageContainer>
@@ -199,7 +151,7 @@ const Footer = () => {
 
                         {/* Email */}
                         <a 
-                            href="mailto:devongifford@outlook.com" 
+                            href="mailto:mutarem@gmail.com" 
                             target='_blank'
                             >
                             <ImageContainer>
@@ -209,15 +161,10 @@ const Footer = () => {
                         </a>
 
                     </ImageSection>
-
-
-
                 </ColumnSectionBig>
-
             </BigFooter>
-
             <SmallFooter>
-                <h5>2023 Portfolio Project. All rights reserved. </h5>
+                <h5>2023 Make with Love  Malcolm Mutare.</h5>
             </SmallFooter>
 
         </FooterContainer>
