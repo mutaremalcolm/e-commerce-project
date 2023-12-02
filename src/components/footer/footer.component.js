@@ -53,9 +53,7 @@ const Footer = () => {
                     <ColumnEntry onClick={onNavigateHandler}>
                         <ul>
                             <li>Checkout FAQ </li>
-                            <li>Track Your Order </li>
                             <li>Returns & Cancellations </li>
-                            <li>Shopping </li>
                             <li>Product Policies </li>
                             <li>Warranty Information </li>
                         </ul>
@@ -73,11 +71,11 @@ const Footer = () => {
                         <br/>
                         <p><strong>Business Number:</strong><br/>555-222-333 </p>
                         <br/>
-                        <p><strong>Fax:</strong><br/>555-444-333 </p>
+                        {/* <p><strong>Fax:</strong><br/>555-444-333 </p>
                         <br/>
                         <p><strong>Mango Store HQ</strong></p>
                         <p>888 66th Ave.</p>
-                        <p>Earth, 1111</p>
+                        <p>Earth, 1111</p> */}
                     </ColumnEntry>
 
                 </ColumnSection4>
@@ -88,7 +86,7 @@ const Footer = () => {
                     {/* CONNECT WITH US */}
                     <ColumnHeading>CONNECT WITH ME </ColumnHeading>
 
-                    <p>Malcoolm Mutare</p>
+                    <p>Malcolm Mutare</p>
 
 
                     {/* SOCIAL MEDIA */}
@@ -130,11 +128,11 @@ const Footer = () => {
                     </ImageSection>
 
 
-                    <ColumnHeading>PORTFOLIO WEBSITE</ColumnHeading>
+                    {/* <ColumnHeading>PORTFOLIO WEBSITE</ColumnHeading>
                     <ImageSection>
 
                         {/* Email */}
-                        <a 
+                        {/*<a 
                             href="" 
                             target='_blank'
                             >
@@ -143,14 +141,14 @@ const Footer = () => {
                             </ImageContainer>
 
                         </a>
-                    </ImageSection>
+                    </ImageSection> */}
 
                     
-                    <ColumnHeading>GET IN TOUCH</ColumnHeading>
+                    {/* <ColumnHeading>GET IN TOUCH</ColumnHeading>
                     <ImageSection>
 
                         {/* Email */}
-                        <a 
+                        {/*<a 
                             href="mailto:mutarem@gmail.com" 
                             target='_blank'
                             >
@@ -160,12 +158,12 @@ const Footer = () => {
 
                         </a>
 
-                    </ImageSection>
+                    </ImageSection> */}
                 </ColumnSectionBig>
             </BigFooter>
-            <SmallFooter>
-                <h5>2023 Make with Love  Malcolm Mutare.</h5>
-            </SmallFooter>
+            {/* <SmallFooter>
+                <h5>2023 Made with Love  Malcolm Mutare.</h5>
+            </SmallFooter> */}
 
         </FooterContainer>
 
