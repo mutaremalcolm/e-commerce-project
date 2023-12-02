@@ -10,7 +10,9 @@ import CartDropdown from '../../../components/cart-dropdown/cart-dropdown';
 
 import { NavigationContainer, NavLinks, NavLink, LogoContainer } from './navigation.styles.jsx';
 
-import { ReactComponent as CrwnLogo } from '../../../assets/crown.svg';
+//import { ReactComponent as CrwnLogo } from '../../../assets/crown.svg';
+
+import  { ReactComponent as MangoFashion }  from '../../../assets/MangoFashion.svg'
  
 import {signOutUser } from '../../../utils/firebase/firebase.utils';
  
@@ -25,7 +27,7 @@ const Navigation = () => {
         <Fragment>
             <NavigationContainer>
                 <LogoContainer to='/'>
-                    <CrwnLogo className='logo'/>
+                    <MangoFashion className='logo'/>
                 </LogoContainer>
                     <NavLinks>
                   <NavLink to='/shop'>
