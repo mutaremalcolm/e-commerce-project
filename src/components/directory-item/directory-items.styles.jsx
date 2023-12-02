@@ -24,18 +24,20 @@ export const Body = styled.div`
         font-weight: bold;
         margin: 0 6px 0;
         font-size: 22px;
-        color: #4a4a4a;
+        color: #89cffa;
         text-transform: uppercase;
       }
   
       p {
         font-weight: lighter;
         font-size: 16px;
+        color: #89cffa;
       }
       `;
 
   export const DirectoryItemContainer = styled.div`
-      min-width: 30%;
+    color: #89cffa;
+    min-width: 30%;
     height: 240px;
     flex: 1 1 auto;
     display: flex;

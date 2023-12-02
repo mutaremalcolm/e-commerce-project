@@ -10,12 +10,14 @@ export const NavigationContainer =  styled.div`
     `;
 
 export const LogoContainer = styled(Link)`
+    color: #89cffa;
     height: 100%; 
-    width: 70px; 
+    width: 70px;  
     padding: 25px;
     `;
 
 export const NavLinks = styled.div`
+    color: #89cffa;
     width: 50%; 
     height: 100%; 
     display: flex; 
