@@ -12,7 +12,7 @@ import { NavigationContainer, NavLinks, NavLink, LogoContainer, MyLogo } from '.
 
 //import { ReactComponent as CrwnLogo } from '../../../assets/crown.svg';
 
-import  { ReactComponent as MangoFashion }  from '../../../assets/MangoStore.svg'
+import   MangoStore from '../../../assets/MangoStore.svg'
  
 import {signOutUser } from '../../../utils/firebase/firebase.utils';
  
@@ -27,7 +27,7 @@ const Navigation = () => {
         <Fragment>
             <NavigationContainer>
                 <LogoContainer to='/'>
-                    <MyLogo MangoFashion className='logo'/>
+                    <MyLogo src= { MangoStore }  alt='logo' />
                 </LogoContainer>
                     <NavLinks>
                   <NavLink to='/shop'>
