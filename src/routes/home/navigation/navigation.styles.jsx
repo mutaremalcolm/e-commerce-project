@@ -10,10 +10,11 @@ export const NavigationContainer =  styled.div`
     `;
 
 export const LogoContainer = styled(Link)`
-    color: #89cffa;
-    height: 100%; 
-    width: 70px;  
-    padding: 25px;
+    height: 40%;
+    width: 120px;
+    padding-top: 6px;
+    padding-bottom: 40px;
+    margin-left: 0px;
 
     @media screen and (max-width: 550px) {
       width: 180px;
