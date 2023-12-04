@@ -12,7 +12,7 @@ import { NavigationContainer, NavLinks, NavLink, LogoContainer } from './navigat
 
 //import { ReactComponent as CrwnLogo } from '../../../assets/crown.svg';
 
-import  { ReactComponent as MangoFashion }  from '../../../assets/MangoFashion.svg'
+import  { ReactComponent as MangoFashion }  from '../../../assets/MangoStore.svg'
  
 import {signOutUser } from '../../../utils/firebase/firebase.utils';
  
