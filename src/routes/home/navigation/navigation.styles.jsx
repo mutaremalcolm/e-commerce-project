@@ -10,8 +10,8 @@ export const NavigationContainer =  styled.div`
     `;
 
 export const LogoContainer = styled(Link)`
-    height: 1000%;
-    width: 350px;
+    height: 100%;
+    width: 200px;
     padding-top: 6px;
     padding-bottom: 40px;
     margin-left: 0px;
