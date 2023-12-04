@@ -15,18 +15,24 @@ export const LogoContainer = styled(Link)`
     padding-top: 6px;
     padding-bottom: 40px;
     margin-left: 0px;
+    `;
 
+    export const MyLogo = styled.img`
+    width: 250px;
+    height: auto;
+  
     @media screen and (max-width: 550px) {
       width: 180px;
-      max-width: 250px;
+      
       margin-top: 10px;
   
     }
   
     @media screen and (max-width: 400px) {
       width: 130px;
+  
     }
-    `;
+  `;
 
 export const NavLinks = styled.div`
     color: #89cffa;

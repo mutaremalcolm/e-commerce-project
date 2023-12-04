@@ -8,7 +8,7 @@ import { useSelector } from 'react-redux';
 import CartIcon from '../../../components/cart-icon/cart-icon.component';
 import CartDropdown from '../../../components/cart-dropdown/cart-dropdown';
 
-import { NavigationContainer, NavLinks, NavLink, LogoContainer } from './navigation.styles.jsx';
+import { NavigationContainer, NavLinks, NavLink, LogoContainer, MyLogo } from './navigation.styles.jsx';
 
 //import { ReactComponent as CrwnLogo } from '../../../assets/crown.svg';
 
@@ -27,7 +27,7 @@ const Navigation = () => {
         <Fragment>
             <NavigationContainer>
                 <LogoContainer to='/'>
-                    <MangoFashion className='logo'/>
+                    <MyLogo MangoFashion className='logo'/>
                 </LogoContainer>
                     <NavLinks>
                   <NavLink to='/shop'>
