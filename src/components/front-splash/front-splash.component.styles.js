@@ -181,8 +181,8 @@ export const SaleBanner = styled.div`
 
 export const SaleHeading = styled(StyledParagraph)`
     color: #FFFFFF;
-    font-family: Courier;
-    font-size: calc(0.5rem + 1vw);
+    font-family: Montserrat Classic;
+    font-size: calc(0.8rem + 1vw);
     font-weight: 700;
     text-align: center;
     

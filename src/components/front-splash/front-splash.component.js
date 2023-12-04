@@ -39,7 +39,7 @@ const FrontSplash = () => {
         <SaleBanner>
 
             <SaleHeading>
-                 ALL YOUR FASHION & STYLE NEEDS IN ONE PLACE!! 
+                 All your fashion needs in one place!! 
             </SaleHeading>
         
 
