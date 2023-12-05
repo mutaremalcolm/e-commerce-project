@@ -30,7 +30,7 @@ import {
                   alt="scrolling image"
                 ></EmblaSlideImage>
   
-                <EmblaSlideOverlay>StreetWear Collection</EmblaSlideOverlay>
+                {/* <EmblaSlideOverlay>StreetWear Collection</EmblaSlideOverlay> */}
   
                 {/*<EmblaSlideOverlay2>Winter Collection</EmblaSlideOverlay2>*/}
               </EmblaSlide>
