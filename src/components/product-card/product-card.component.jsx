@@ -5,7 +5,7 @@ import { addItemToCart } from '../../store/cart/cart.reducer';
 
 import Button, { BUTTON_TYPES_CLASSES } from '../button/button.component';
 
-import './product-card.styles.scss';
+import { ProductCardContainer } from './product-card.styles';
 
 
 const ProductCard = ({ product }) => { 
@@ -16,7 +16,7 @@ const ProductCard = ({ product }) => {
   const addProductToCart = () => dispatch(addItemToCart(product));
 
   return (
-    <div className='product-card-container'>
+    <ProductCardContainer>
       <img src={imageUrl} alt={`${name}`} />
       <div className='footer'>
         <span className='name'>{name}</span>
@@ -25,7 +25,7 @@ const ProductCard = ({ product }) => {
       <Button buttonType={BUTTON_TYPES_CLASSES.inverted} onClick={addProductToCart}>
         Add to cart
       </Button>
-    </div>
+    </ProductCardContainer>
   );
 };
 
