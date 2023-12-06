@@ -1,4 +1,4 @@
-import { useSelector } from 'react-redux';
+import { useSelector, useDispatch } from 'react-redux';
 
 import { CartDropdownContainer,
         EmptyMessage, 
@@ -8,17 +8,24 @@ import { useNavigate } from 'react-router-dom';
 
 import Button from '../button/button.component';
 
+import { setIsCartOpen } from '../../store/cart/cart.reducer';
+
 import CartItem from '../cart-item/cart-item.component'; 
 
-import { selectCartItems } from '../../store/cart/cart.selector';
+import { selectCartItems, selectIsCartOpen } from '../../store/cart/cart.selector';
 
 const CartDropdown = () => {
+    const dispatch = useDispatch();
+    const isCartOpen = useSelector(selectIsCartOpen);
     const cartItems = useSelector(selectCartItems);
     const navigate = useNavigate();
 
     const goToCheckoutHandler = () => {
         navigate('/checkout') 
     }
+
+    const toggleIsCartOpen = () => dispatch(setIsCartOpen(!isCartOpen));
+
     return(
         <CartDropdownContainer >
             <CartItems>
@@ -30,9 +37,10 @@ const CartDropdown = () => {
                 )
                }    
             </CartItems>
-            <Button onClick={
-                goToCheckoutHandler
-                }>GO TO CHECKOUT</Button>
+            <Button onClick={ () => {
+                goToCheckoutHandler();
+                toggleIsCartOpen();
+                }}>GO TO CHECKOUT</Button>
         </CartDropdownContainer>
     );
 };

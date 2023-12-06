@@ -1,4 +1,6 @@
  import { useState } from 'react';
+
+ import { useNavigate } from 'react-router-dom';
  
  import { CardElement, useStripe, useElements } from '@stripe/react-stripe-js';
 
@@ -15,6 +17,7 @@
  import { PaymentFormContainer, FormContainer   } from './payment-form.styles'
 
  const PaymentForm = () => {
+    const navigate = useNavigate();
     const stripe = useStripe();
     const elements = useElements(); 
     const amount = useSelector(selectCartTotal);
@@ -58,7 +61,8 @@
         alert(paymentResult.error.message);
       }else{
         if(paymentResult.paymentIntent.status === 'succeeded') {
-           alert('Payment Successful'); 
+           navigate('../../routes/payment-confirmation/payment-confirmation.jsx');
+           console.log('Route breaks down here') 
         }
       }
 

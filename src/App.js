@@ -5,6 +5,8 @@ import {
   createUserDocumentFromAuth,
 } from './utils/firebase/firebase.utils';
 
+import Thankyou from './routes/payment-confirmation/payment-confirmation';
+
 
 import Home from './routes/home/home.component';
 import Navigation from './routes/home/navigation/navigation.component';
@@ -40,6 +42,7 @@ const App = () => {
       <Route path='shop/*' element={<Shop />} />
       <Route path='auth' element={<Authentication />} />
       <Route path='checkout' element={<Checkout />} />
+      <Route path='checkout/payment/payment-confirmation' element={<Thankyou />} />
       </Route>
     </Routes>
     </>
