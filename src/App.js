@@ -7,6 +7,8 @@ import {
 
 import Thankyou from './routes/payment-confirmation/payment-confirmation';
 
+import { GlobalStyles } from './global-styles';
+
 
 import Home from './routes/home/home.component';
 import Navigation from './routes/home/navigation/navigation.component';
@@ -36,6 +38,7 @@ const App = () => {
  
   return(
     <>
+    < GlobalStyles />
     <Routes>
       <Route path='/' element={<Navigation />}>
       <Route index element={<Home />} /> 

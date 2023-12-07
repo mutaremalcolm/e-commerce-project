@@ -9,7 +9,7 @@ import ProductCard from '../../components/product-card/product-card.component';
 
 import { selectCategoriesMap  } from '../../store/user/categories/category.selector';
 
-import './category.styles.scss';
+import { CategoryContainer, CategoryTitle } from './category.styles';
 
 const Category = () => {
     const { category } = useParams();
@@ -23,12 +23,12 @@ const Category = () => {
 
     return (
         <Fragment>
-            <h2 className='category-title'>{category.toUpperCase()}</h2>
-            <div className='category-container'>
+            <CategoryContainer>{category.toUpperCase()}</CategoryContainer>
+            <CategoryTitle>
                 {products && products.map((product) => (
                     <ProductCard key={product.id} product={product} />
                 ))}
-            </div>
+            </CategoryTitle>
         </Fragment>
     );
 };

@@ -6,7 +6,7 @@ import { Elements } from '@stripe/react-stripe-js';
 import { stripePromise } from './utils/firebase/stripe/stripe.utils'
 
 import { Provider } from 'react-redux';
-import './index.scss';
+//import './global-styles.js';
 
 import reportWebVitals from './reportWebVitals';
 
