@@ -1,4 +1,6 @@
-import { useEffect } from 'react'
+import { useEffect } from 'react';
+
+import Footer from '../../components/footer/footer.component';
 
 import { Routes, Route } from 'react-router-dom';
 
@@ -13,7 +15,7 @@ import { getCategoriesAndDocuments } from '../../utils/firebase/firebase.utils';
 
 import  { setCategories } from '../../store/user/categories/category.reducer';
 
-import { ProductsContainer } from './shop.styles.jsx';
+// import { ProductsContainer } from './shop.styles.jsx';
 
 
 const Shop = () => {
@@ -29,11 +31,12 @@ const Shop = () => {
     }, []);
     return (
         <>
-        <ProductsContainer />
+        {/* <ProductsContainer /> */}
         <Routes>
             <Route index element={<CategoriesPreview />} /> 
             <Route path=':category' element={<Category />} /> 
         </Routes>
+        <Footer />
         </>
     
     )

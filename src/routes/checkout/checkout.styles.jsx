@@ -16,14 +16,12 @@ export const CheckoutContainer = styled.div`
 
 export const CheckoutHeader = styled.div` 
    width: 100%; 
-   padding: 10px 0; 
+   padding: 0px 20px 10px 20px; 
    display: flex; 
    justify-content: space-between; 
-   border-bottom: 1px solid darkgrey;
-
-   @media only screen and (max-width: 768px) {
-    flex-direction: column;
-  } 
+   border-bottom: 1px ;
+   color: #89cff0;
+   text-align: center;
    `
    
 export const HeaderBlock = styled.div` 
@@ -33,16 +31,11 @@ export const HeaderBlock = styled.div`
 &:last-child { 
    width: 8%; 
        } 
-
-    @media only screen and (max-width: 768px) {
-    font-size: 14px;
-    width: 33%;
-    flex: 1;
-  }
       `; 
      
 export const Total = styled.span` 
    margin-top: 30px; 
    margin-left: auto; 
    font-size: 36px; 
+   color: #89cff0;
        `;
