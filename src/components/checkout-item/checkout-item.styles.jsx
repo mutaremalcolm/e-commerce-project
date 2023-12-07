@@ -52,4 +52,3 @@ export const RemoveButton = styled.button`
   padding-left: 12px;
   cursor: pointer;
 `;
-

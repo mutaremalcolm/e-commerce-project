@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 
 export const BaseButton = styled.button`
-    min-width: 165px; 
+    min-width: 25%; 
     width: auto; 
     height: 50px; 
     letter-spacing: 0.5px; 
@@ -18,6 +18,11 @@ export const BaseButton = styled.button`
     display: flex; 
     justify-content: center; 
 
+    @media only screen and (max-width: 768px) {
+    padding: 5px 20px 5px 20px;
+    font-size: 12px;
+  }
+
     &:hover { 
         background-color: #1a91c8; 
         color: black; 
@@ -31,7 +36,13 @@ export const BaseButton = styled.button`
     &:hover { 
         background-color: #1a91c8; 
         border: none; 
-        }`;
+        }
+        
+        @media only screen and (max-width: 768px) {
+            padding: 5px 20px 5px 20px;
+            font-size: 12px;
+          };
+          `
 
 export const InvertedButton = styled(BaseButton)`
     background-color: white;
@@ -43,6 +54,11 @@ export const InvertedButton = styled(BaseButton)`
     color: white; 
     border: none; 
     } 
+
+    @media only screen and (max-width: 768px) {
+    padding: 5px 20px 5px 20px;
+    font-size: 12px;
+  }
 `;
 
 
