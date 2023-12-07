@@ -1,18 +1,32 @@
 import styled from 'styled-components';
 
+export const PageWrapper = styled.div`
+  /* margin-left: 15px;
+  margin-right: 15px; */
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  justify-content: space-between;
+`;
+
 export const AuthenticationContainer = styled.div`
     color: #89cffa;
     display: flex;
-    width: 900px;
-    justify-content: space-between;
-    margin: 30px auto;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 180px;
 
-    ${'' /* @media only screen and (max-width: 992px) {
-    flex-direction: column;
-    width: 100%;
-  } */}
+    height: auto;
+ 
+    padding-top: 50px;
+    padding-bottom: 70px;
 
-  @media only screen and (max-width: 768px) {
-    margin: 10px auto;
-  }
-`
+    margin-left: 20px;
+    margin-right: 20px;
+
+`;
+
+export const FooterWrapper = styled.div`
+  margin-top: auto;
+`;
