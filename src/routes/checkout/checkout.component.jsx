@@ -8,7 +8,12 @@ import CheckOutItem from '../../components/checkout-item/checkout-item.component
 
 import PaymentForm from '../../components/payments-form/payment-form.component';
 
-import { CheckoutContainer, CheckoutHeader, HeaderBlock, Total} from './checkout.styles.jsx';
+import { CheckoutContainer, 
+         CheckoutHeader, 
+         HeaderBlock, 
+         Total, 
+         DeveloperContainer,
+        } from './checkout.styles.jsx';
 
 
 
@@ -42,6 +47,13 @@ const Checkout = () => {
                         )}
                         <Total>Total: R{cartTotal}</Total>
                         <PaymentForm />
+                        <DeveloperContainer>
+                            <h3>Hey there!!! Malcolm your Developer here</h3>
+                            <span> Please use the test card details below to simulate your purchase</span>
+                            <span> Card Number:     4242 4242 4242 4242</span>
+                            <span> Expiry Data:     12/25</span>
+                            <span> CVC:             666</span>
+                        </DeveloperContainer>
             </CheckoutContainer>
             <Footer />
         </>
