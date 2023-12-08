@@ -6,6 +6,7 @@ import {
 } from './utils/firebase/firebase.utils';
 
 import Thankyou from './routes/payment-confirmation/payment-confirmation';
+import Spinner from './components/spinner/spinner.component';
 
 import { GlobalStyles } from './global-styles';
 
@@ -48,6 +49,7 @@ const App = () => {
       <Route path='checkout/payment/payment-confirmation' element={<Thankyou />} />
       </Route>
     </Routes>
+    <Spinner />
     </>
   );
 }
