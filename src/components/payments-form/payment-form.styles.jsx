@@ -9,6 +9,7 @@ export const PaymentFormContainer = styled.div`
 `;
 
 export const FormContainer = styled.form`
+    color: #89cff0;
     height: 100px;
     min-width: 500px; 
 `;

@@ -39,3 +39,15 @@ export const Total = styled.span`
    font-size: 36px; 
    color: #89cff0;
        `;
+
+export const DeveloperContainer = styled.div`
+   display: grid;
+   grid-template-rows: repeat(5, 1fr); 
+   grid-gap: 0px;
+   border: 3px solid #89cff0;
+   border-bottom: 1px ;
+   color: #89cff0;
+   text-align: center;
+   padding: 0.5em;
+   margin-bottom: 1em;
+`
