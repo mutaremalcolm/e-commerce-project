@@ -1,6 +1,8 @@
  import { useState } from 'react';
 
  import { useNavigate } from 'react-router-dom';
+
+ import emojione from 'emojione';
  
  import { CardElement, useStripe, useElements } from '@stripe/react-stripe-js';
 
@@ -17,6 +19,7 @@
  import { PaymentFormContainer, FormContainer   } from './payment-form.styles'
 
  const PaymentForm = () => {
+    const message = 'Congratulations! Payment Successful! Check your email for your shipping information!';
     const navigate = useNavigate();
     const stripe = useStripe();
     const elements = useElements(); 
@@ -61,8 +64,8 @@
         alert(paymentResult.error.message);
       }else{
         if(paymentResult.paymentIntent.status === 'succeeded') {
-           navigate('../../routes/payment-confirmation/payment-confirmation.jsx');
-           console.log('Route breaks down here') 
+          alert(emojione.toImage(message));
+           
         }
       }
 

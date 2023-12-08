@@ -1,11 +1,10 @@
-import { useEffect, } from 'react';
+import { Suspense, useEffect, } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
 import {
   onAuthStateChangedListener,
   createUserDocumentFromAuth,
 } from './utils/firebase/firebase.utils';
 
-import Thankyou from './routes/payment-confirmation/payment-confirmation';
 import Spinner from './components/spinner/spinner.component';
 
 import { GlobalStyles } from './global-styles';
@@ -39,6 +38,7 @@ const App = () => {
  
   return(
     <>
+    <Suspense fallback={<Spinner />}>
     < GlobalStyles />
     <Routes>
       <Route path='/' element={<Navigation />}>
@@ -46,10 +46,9 @@ const App = () => {
       <Route path='shop/*' element={<Shop />} />
       <Route path='auth' element={<Authentication />} />
       <Route path='checkout' element={<Checkout />} />
-      <Route path='checkout/payment/payment-confirmation' element={<Thankyou />} />
       </Route>
     </Routes>
-    <Spinner />
+    </Suspense>
     </>
   );
 }
