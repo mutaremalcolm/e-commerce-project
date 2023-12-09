@@ -15,7 +15,7 @@ import { getCategoriesAndDocuments } from '../../utils/firebase/firebase.utils';
 
 import  { setCategories } from '../../store/user/categories/category.reducer';
 
-// import { ProductsContainer } from './shop.styles.jsx';
+import { ProductsContainer } from './shop.styles.jsx';
 
 
 const Shop = () => {
@@ -31,7 +31,7 @@ const Shop = () => {
     }, []);
     return (
         <>
-        {/* <ProductsContainer /> */}
+        <ProductsContainer />
         <Routes>
             <Route index element={<CategoriesPreview />} /> 
             <Route path=':category' element={<Category />} /> 
