@@ -48,6 +48,6 @@ export const DeveloperContainer = styled.div`
    border-bottom: 1px ;
    color: #89cff0;
    text-align: center;
-   padding: 0.5em;
+   padding: 2.5em;
    margin-bottom: 1em;
 `

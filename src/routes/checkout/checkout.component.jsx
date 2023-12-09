@@ -53,6 +53,7 @@ const Checkout = () => {
                             <span> Card Number:     4242 4242 4242 4242</span>
                             <span> Expiry Data:     12/25</span>
                             <span> CVC:             666</span>
+                            <span> ZIP:             90210</span>
                         </DeveloperContainer>
             </CheckoutContainer>
             <Footer />

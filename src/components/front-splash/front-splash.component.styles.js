@@ -32,6 +32,7 @@ export const HeadingContainer = styled.div`
   padding-left: 18px;
   padding-right: 18px;
   padding-bottom: 20px;
+  border-radius: 10px;
   
 
     p {
@@ -52,7 +53,7 @@ export const BigHeadingContainer = styled.div`
     grid-row: 0 / 2;
     grid-column: 0 / 2;
     background-color: #89cffa;
-
+    border-radius: 10px;
     padding-left: 18px;
     padding-right: 18px;
     align-content:center;
@@ -113,8 +114,7 @@ export const SmallHeading = styled.div`
 export const StyledParagraph = styled.div`
   /* Shared styles for all <p> tags */
     font-size: calc(12px + 0.5vw);
-    
-    
+    border-radius: 10px;
     margin-left: 1px;
     margin-top: 10px;
     margin-bottom: 7px;
@@ -172,6 +172,7 @@ export const SaleBanner = styled.div`
   width: 100%;
   height: 60px;
   border: 1px none #66804e;
+  border-radius: 10px;
   background-color: #89cff0;
   opacity: 0.7;
   justify-content: center;

@@ -3,10 +3,10 @@ import styled from 'styled-components';
 export const FooterContainer = styled.div`
     height: auto;
     margin: 0 auto;
-    
+    border-radius: 10px;
     display: flex;
-    flex-direction: column;
-    justify-content: center; 
+    flex-direction: row;
+    justify-content: space-between; 
     align-items: center; 
     
     gap: 1px; 
@@ -100,6 +100,7 @@ export const ColumnSectionBig = styled.div`
 export const ColumnHeading = styled.div`
     font-weight: 800;
     color: #ffffff;
+    
 
     @media (max-width: 700px) {
     text-align: center;

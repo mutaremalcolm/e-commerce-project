@@ -29,10 +29,6 @@ import {
                   src={imageByIndex(index)} 
                   alt="scrolling image"
                 ></EmblaSlideImage>
-  
-                {/* <EmblaSlideOverlay>StreetWear Collection</EmblaSlideOverlay> */}
-  
-                {/*<EmblaSlideOverlay2>Winter Collection</EmblaSlideOverlay2>*/}
               </EmblaSlide>
             ))}
           </EmblaContainer>

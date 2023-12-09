@@ -43,6 +43,7 @@ export const EmblaSlideImage = styled.img `
   height: var(--slide-height);
   width: 100%;
   object-fit: cover;
+  border-radius: 10px;
 `;
 
 export const EmblaSlideOverlay = styled.div `
