@@ -1,8 +1,5 @@
 import styled from 'styled-components';
 
-import Button from '../button/button.component';
-
-
 /* --------------------------------------------------------
     CONTAINERS
 ----------------------------------------------------------*/ 
@@ -71,24 +68,6 @@ p {
     text-align: center;
     color: #ffffff;
 }
-
-
-Button {
-    margin-top: auto;
-    color: white;
-    background-color: #2d4d2a;
-    border: 3px solid #2d4d2a;
-
-    &:hover {
-        transform: translate(0%, -5%);
-        background-color: #2d4d2a;
-        color: white;
-        box-shadow: 5px 5px 4px #2d4d2a;
-        border: 3px solid #2d4d2a;
-     
-    }
-}
-
 `;
 
 
@@ -128,40 +107,6 @@ export const StyledParagraph = styled.div`
 
 
 
-/* --------------------------------------------------------
-    BUTTONS & LOGO'S
-----------------------------------------------------------*/ 
-
-export const ButtonLogosContainer = styled.div`
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 50px;
-
-    padding-top: 40px;
-    padding-bottom: 40px;
-
-`;
-
-
-// 🎯🎯🎯🎯🎯🎯
-export const LogoStyling =styled.div`
-    cursor: pointer;    
-
-    &:hover {
-        transform: translate(0%, -10%); 
-    }
-`;
-
-
-export const ButtonContainer =styled.div`
-    padding-bottom: 20px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-`;
-
-
 
 
 /* --------------------------------------------------------
@@ -186,6 +131,7 @@ export const SaleHeading = styled(StyledParagraph)`
     font-size: calc(0.8rem + 1vw);
     font-weight: 700;
     text-align: center;
+
     
 
     @media (max-width: 640px) {

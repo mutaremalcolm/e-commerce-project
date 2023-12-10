@@ -1,11 +1,8 @@
 import React, { Fragment} from "react";
 import { useNavigate } from 'react-router-dom';
+// import hero1 from '../../assets/Hero_Section/hero1.jpg';
 
 import { EmblaCarousel } from "../carousel/carousel.component";
-
-// import { ReactComponent as RecycleLogo } from '../../assets/recycle.svg'
-// import { ReactComponent as UkraineLogo } from '../../assets/ukraine.svg'
-// import { ReactComponent as EarthLogo } from '../../assets/earth.svg'
 
 
 import { 
@@ -13,15 +10,12 @@ import {
     SmallHeading, 
     StyledParagraph,
     HeadingContainer, 
-    HeadingContainer2,
     BigHeadingContainer, 
-    //ButtonLogosContainer,
-    //LogoStyling,
-    ButtonContainer,
-    SloganContainer,
     SaleBanner,
     SaleHeading,
-} from './front-splash.component.styles'
+} from './front-splash.component.styles';
+
+// const HeroImage = hero1;
 
 const OPTIONS = {}
 const SLIDE_COUNT = 4
@@ -59,10 +53,11 @@ const FrontSplash = () => {
         <FrontSplashContainer>
 
             <HeadingContainer>
-                <SmallHeading>Express Your Fashion Sense</SmallHeading>
+                <SmallHeading>Unleash Your Inner Trendsetter</SmallHeading>
+                {/* <HeroImage /> */}
                 
                 <StyledParagraph>
-                    We appreciate that how you dress is an extension of uniqueness. Our goal is to help you express your individuality, dress how you feel inside. 
+                Discover clothes that reflect your individuality and empower you to dress how you feel.. 
                 </StyledParagraph>
                     
             </HeadingContainer>
@@ -70,7 +65,7 @@ const FrontSplash = () => {
             <BigHeadingContainer>
                 
                 <SmallHeading>
-                    Discover the Difference:
+                    Making a Difference.
                 </SmallHeading>
                 
                 <StyledParagraph>
