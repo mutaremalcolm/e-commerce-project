@@ -1,4 +1,4 @@
-import { Suspense, useEffect, } from 'react';
+import { lazy, Suspense, useEffect, } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
 import {
   onAuthStateChangedListener,
@@ -7,19 +7,20 @@ import {
 
 import Spinner from './components/spinner/spinner.component';
 
+import { Routes, Route } from 'react-router-dom';
+
 import { GlobalStyles } from './global-styles';
 
-
-import Home from './routes/home/home.component';
-import Navigation from './routes/home/navigation/navigation.component';
-import Authentication from './routes/home/authentication/authentication.component';
-import { Routes, Route } from 'react-router-dom';
-import Shop from './routes/shop/shop.components';
-import Checkout from './routes/checkout/checkout.component';
 import { setCurrentUser } from './store/user/user.reducer';
 
+const Home = lazy(() => import('./routes/home/home.component'));
+const Authentication = lazy(() => import('./routes/home/authentication/authentication.component'));
+const Shop = lazy(() => import('./routes/shop/shop.components'));
+const Checkout = lazy(() => import('./routes/checkout/checkout.component'));
+const Navigation = lazy(() => import('./routes/home/navigation/navigation.component'));
 
-const App = () => {
+
+const App = () => { 
   const dispatch = useDispatch();
   
 
