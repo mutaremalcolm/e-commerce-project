@@ -5,12 +5,10 @@ export const FooterContainer = styled.div`
     margin: 0 auto;
     border-radius: 10px;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: space-between; 
     align-items: center; 
-    
-    gap: 1px; 
-    
+    gap: 0; 
     background-color: #89cffa;
 `;
 
@@ -38,7 +36,7 @@ export const BigFooter = styled.div`
 `;
 
 export const ColumnSection1 = styled.div`
-    color: #cecece;
+    color: #004AAD;
 
     @media (max-width: 700px) {
         display: none;
@@ -46,7 +44,7 @@ export const ColumnSection1 = styled.div`
 `;
 
 export const ColumnSection2 = styled.div`
-    color: #cecece;
+    color: #004AAD;
 
     @media (max-width: 700px) {
     display: none;
@@ -54,7 +52,7 @@ export const ColumnSection2 = styled.div`
 `;
 
 export const ColumnSection3 = styled.div`
-    color: #cecece;
+    color: #004AAD;
 
     @media (max-width: 700px) {
     display: none;
@@ -62,7 +60,7 @@ export const ColumnSection3 = styled.div`
 `;
 
 export const ColumnSection4 = styled.div`
-    color: #cecece;
+    color: #004AAD;
      
     p{
         margin-top: 13px;
@@ -76,7 +74,7 @@ export const ColumnSection4 = styled.div`
 
 export const ColumnSectionBig = styled.div`
     grid-column: 4 / span 2;
-    color: #FFFFFF;
+    color: #004AAD;
     padding-left: 15px;
 
     p{
@@ -99,7 +97,7 @@ export const ColumnSectionBig = styled.div`
 
 export const ColumnHeading = styled.div`
     font-weight: 800;
-    color: #ffffff;
+    color: #004AAD;
     
 
     @media (max-width: 700px) {
@@ -112,7 +110,7 @@ export const ColumnHeading = styled.div`
 
 export const ColumnEntry = styled.div`
     padding-bottom: 2px;
-    color: #ffffff;
+    color: #004AAD;
 
     ul{
         margin: 0px;
@@ -125,7 +123,7 @@ export const ColumnEntry = styled.div`
     li{
         padding-bottom: 5px;
         list-style-type: none;
-        color: #ffffff; 
+        color: #004AAD; 
         &:hover {
         color: #0000000;
         cursor: pointer;
@@ -134,7 +132,7 @@ export const ColumnEntry = styled.div`
 `;
 
 export const ImageSection = styled.div`
-        color: #ffffff;
+        color: #004AAD;
     
     @media (max-width: 700px) {
         text-align: center;

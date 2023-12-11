@@ -1,5 +1,6 @@
 import styled from 'styled-components';
 
+
 /* --------------------------------------------------------
     CONTAINERS
 ----------------------------------------------------------*/ 
@@ -23,7 +24,9 @@ export const FrontSplashContainer = styled.div`
 `;
 
 export const HeadingContainer = styled.div`
-
+  ${'' /* background-image: url(require('../../assets/Hero_Section/hero1.jpg'));
+  background-size: cover;
+  background-position: center;   */}
   grid-column: 0/ 1;
   background-color: #89cff0;
   padding-left: 18px;
@@ -84,25 +87,22 @@ export const SmallHeading = styled.div`
     font-weight: 900;
     font-size: calc(10px + 1vw);
     letter-spacing: 2.5px;
-    
-    color: #ffffff;
-    border-bottom: 4px solid white;
+    color: #004AAD;
+    border-bottom: 4px ;
+    border-color: #004AAD;
 
 `;
 
 export const StyledParagraph = styled.div`
-  /* Shared styles for all <p> tags */
+  /* Shared styles for all <p> tags */  
     font-size: calc(12px + 0.5vw);
     border-radius: 10px;
     margin-left: 1px;
     margin-top: 10px;
     margin-bottom: 7px;
-
     font-weight: bold;
-
-
     text-align: center;
-    color: #f4f4f4;
+    color: #004AAD;
 `;
 
 
@@ -126,10 +126,10 @@ export const SaleBanner = styled.div`
 
 
 export const SaleHeading = styled(StyledParagraph)`
-    color: #FFFFFF;
+    color: #004AAD;
     font-family: Montserrat Classic;
     font-size: calc(0.8rem + 1vw);
-    font-weight: 700;
+    font-weight: 900;
     text-align: center;
 
     

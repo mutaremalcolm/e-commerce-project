@@ -2,8 +2,9 @@ import styled, { createGlobalStyle } from
  
 "styled-components";
 
-export const GlobalStyles = createGlobalStyle`
+export const GlobalStyle = createGlobalStyle`
   body {
+    background-color: #46B4E7;
     margin: 0;
     padding: 20px 40px;
     font-family: 'Open Sans Condensed', sans-serif;

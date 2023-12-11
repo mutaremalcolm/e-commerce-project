@@ -30,6 +30,7 @@ export const CartDropdownContainer = styled.div`
     `;
 
 export const EmptyMessage = styled.span`
+    color:  #004AAD;
     font-size: 18px;
     margin: 50px auto;
     `

@@ -1,6 +1,7 @@
 import styled from 'styled-components';
 
 export const PaymentFormContainer = styled.div`
+    color:  #004AAD;
     height: 300px;
     display: flex;
     flex-direction: column;
@@ -9,7 +10,7 @@ export const PaymentFormContainer = styled.div`
 `;
 
 export const FormContainer = styled.form`
-    color: #89cff0;
+    color:  #004AAD;
     height: 100px;
     min-width: 500px; 
 `;

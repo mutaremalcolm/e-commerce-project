@@ -67,7 +67,7 @@ const Footer = () => {
 
                     <p>Malcolm Mutare</p>
 
-
+                    <br />
                     <ColumnHeading><br/> SOCIAL MEDIA</ColumnHeading>
                     <ImageSection>
                         <a 
@@ -95,8 +95,7 @@ const Footer = () => {
                         </a>
                     </ImageSection>  
                 </ColumnSectionBig>
-            </BigFooter>
-            
+            </BigFooter>     
         </FooterContainer>
 
     </Fragment>
