@@ -10,7 +10,7 @@ export const PageWrapper = styled.div`
 `;
 
 export const CategoryContainer = styled.div`
-    color: #89cffa;
+    color:  #004AAD;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     column-gap: 20px;
@@ -35,7 +35,7 @@ export const CategoryContainer = styled.div`
 
 
 export const CategoryTitle = styled.h2`
-    color: #89cffa;
+    color: #FFFFFF;
     font-size: 38px;
     margin-bottom: 25px;
     text-align: center;

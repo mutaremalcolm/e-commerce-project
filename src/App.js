@@ -9,7 +9,7 @@ import Spinner from './components/spinner/spinner.component';
 
 import { Routes, Route } from 'react-router-dom';
 
-import { GlobalStyles } from './global-styles';
+import { GlobalStyle } from './global-styles';
 
 import { setCurrentUser } from './store/user/user.reducer';
 
@@ -40,7 +40,7 @@ const App = () => {
   return(
     <>
     <Suspense fallback={<Spinner />}>
-    < GlobalStyles />
+    <GlobalStyle />
     <Routes>
       <Route path='/' element={<Navigation />}>
       <Route index element={<Home />} /> 

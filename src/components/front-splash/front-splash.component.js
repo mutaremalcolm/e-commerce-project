@@ -33,7 +33,7 @@ const FrontSplash = () => {
         <SaleBanner>
 
             <SaleHeading>
-                 No-one is built like you. You design yourself!! 
+                 All your shopping in one-click! 
             </SaleHeading>
         
 
@@ -54,7 +54,7 @@ const FrontSplash = () => {
 
             <HeadingContainer>
                 <SmallHeading>Unleash Your Inner Trendsetter</SmallHeading>
-                {/* <HeroImage /> */}
+                
                 
                 <StyledParagraph>
                 Discover clothes that reflect your individuality and empower you to dress how you feel.. 

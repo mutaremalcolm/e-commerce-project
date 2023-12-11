@@ -10,6 +10,7 @@ export const NavigationContainer =  styled.div`
     `;
 
 export const LogoContainer = styled(Link)`
+    background-color: #46B4E7;
     height: 40%;
     width: 120px;
     padding-top: 6px;

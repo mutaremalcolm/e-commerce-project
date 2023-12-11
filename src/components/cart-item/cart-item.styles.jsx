@@ -22,6 +22,7 @@ export const ItemDetails = styled.div`
     padding: 10px 20px; 
 
     span {
+    color:  #004AAD;  
     font-size: 16px;
   }  
 `; 
