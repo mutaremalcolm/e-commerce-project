@@ -40,6 +40,7 @@ const SignInForm = () => {
             email, 
             password
             );
+        alert(`User ${user.email} Successfully logged in! Click MangoStore or Shop to continue Shopping`);
 
         resetFormFields();   
         } catch(error) {

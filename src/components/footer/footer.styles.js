@@ -65,7 +65,7 @@ export const ColumnSection3 = styled.div`
 `;
 
 export const ColumnSectionBig = styled.div`
-    grid-column: 4 / span 7;
+    grid-column: 4 / span 4;
     color: #89cffa;
     padding-left: 5px;
 
@@ -89,6 +89,8 @@ export const ColumnSectionBig = styled.div`
 
 
 export const ColumnHeading = styled.div`
+    display: grid;
+    grid-column: 5 / span 4;
     font-weight: 800;
     color: #89cffa;
     

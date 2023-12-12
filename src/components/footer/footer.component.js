@@ -70,7 +70,6 @@ const Footer = () => {
                     <p>Malcolm Mutare</p>
 
                     <br />
-                 </ColumnSectionBig>
                     <ColumnHeading><br/> SOCIAL MEDIA</ColumnHeading>
                     <ImageSection>
                         <a 
@@ -96,7 +95,8 @@ const Footer = () => {
                                 <TiSocialTwitter />
                             </ImageContainer>
                         </a>
-                    </ImageSection>  
+                    </ImageSection>
+                    </ColumnSectionBig>  
             </BigFooter>     
         </FooterContainer>
 

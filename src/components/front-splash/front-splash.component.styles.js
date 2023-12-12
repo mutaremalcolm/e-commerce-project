@@ -104,6 +104,14 @@ export const StyledParagraph = styled.div`
     color: #89cffa;
 `;
 
+export const ButtonsContainer = styled.button`
+    width: auto;
+    padding: 10px 20px;
+    font-color: #004AAD;
+    align-content: center;
+    
+`
+
 
 
 
