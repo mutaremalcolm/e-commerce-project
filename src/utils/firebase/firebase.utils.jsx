@@ -56,7 +56,7 @@ const firebaseConfig = {
       });
 
       await batch.commit(); 
-      console.log('done');
+    
   };  
 
   export const getCategoriesAndDocuments = async () => {
@@ -89,7 +89,7 @@ const firebaseConfig = {
             ...additionalInformation
           });
         } catch (error) {
-          console.log('error creating the user', error.message);
+          alert('error creating the user', error.message);
         }
         }
 
