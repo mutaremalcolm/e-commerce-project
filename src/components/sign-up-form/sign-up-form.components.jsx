@@ -40,6 +40,7 @@ const SignUpForm = () => {
                 email, 
                 password
                 ); 
+        alert(`User ${user.email} successfully Signed-Up! Click MangoStore or Shop to continue shopping`);
         
         await createUserDocumentFromAuth(user, {displayName});
         resetFormFields();   

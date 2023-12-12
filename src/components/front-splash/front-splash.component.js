@@ -4,7 +4,11 @@ import { useNavigate } from 'react-router-dom';
 
 import { EmblaCarousel } from "../carousel/carousel.component";
 
+// import { ReactComponent as EarthLogo } from '../../assets/recyclingsymbol.svg';
 
+import Button from "../button/button.component";
+
+ 
 import { 
     FrontSplashContainer, 
     SmallHeading, 
@@ -14,6 +18,7 @@ import {
     SaleBanner,
     SaleHeading,
 } from './front-splash.component.styles';
+import { ButtonsContainer } from "../sign-in-form/sign-in-form.styles";
 
 // const HeroImage = hero1;
 
@@ -57,8 +62,12 @@ const FrontSplash = () => {
                 
                 
                 <StyledParagraph>
-                Discover clothes that reflect your individuality and dress how you feel.. 
+                Discover clothes that reflect your individuality and dress how you feel..<br/>
+                We aim to keep you updated with current trends, Click and Read More...<br/>
                 </StyledParagraph>
+                <ButtonsContainer>
+                <Button onClick={() => window.open('https://www.rebeccajacobs.style/blog', '_blank')}>Fashion Tips</Button>
+                </ButtonsContainer>
                     
             </HeadingContainer>
 
@@ -69,14 +78,10 @@ const FrontSplash = () => {
                 </SmallHeading>
                 
                 <StyledParagraph>
-                    We're more than just stylish apparel. We're proud to be eco-friendly. 
+                    We're more than just stylish apparel. We're proud to be eco-friendly.<br/>
+                    We make an effort to source products that use recyled materials while maintaining quality standards.
                 </StyledParagraph>
-                <br/>
-
-                <StyledParagraph>
-                    
-                </StyledParagraph>
-
+                {/* <EarthLogo /> */}
             </BigHeadingContainer>
 
         </FrontSplashContainer>
