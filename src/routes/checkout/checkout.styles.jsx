@@ -20,7 +20,7 @@ export const CheckoutHeader = styled.div`
    display: flex; 
    justify-content: space-between; 
    border-bottom: 1px ;
-   color: #89cff0;
+   color: #004AAD;;
    text-align: center;
    `
    
@@ -37,10 +37,11 @@ export const Total = styled.span`
    margin-top: 30px; 
    margin-left: auto; 
    font-size: 36px; 
-   color: #89cff0;
+   color: #004AAD;;
        `;
 
 export const DeveloperContainer = styled.div`
+   background-color: #004AAD;
    display: grid;
    grid-template-rows: repeat(5, 1fr); 
    grid-gap: 0px;

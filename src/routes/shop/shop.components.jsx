@@ -1,7 +1,5 @@
 import { useEffect } from 'react';
 
-import Footer from '../../components/footer/footer.component';
-
 import { Routes, Route } from 'react-router-dom';
 
 import { useDispatch } from 'react-redux'
@@ -36,7 +34,6 @@ const Shop = () => {
             <Route index element={<CategoriesPreview />} /> 
             <Route path=':category' element={<Category />} /> 
         </Routes>
-        <Footer />
         </>
     
     )

@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 
 export const SignInContainer = styled.div`
-  color: #89cffa;
+  color: #004AAD;
   display: flex;
   flex-direction: column;
   width: 350px;
@@ -10,7 +10,7 @@ export const SignInContainer = styled.div`
 
   export const TitleWrapper = styled.h2`
     margin: 10px 0;
-    color: #89cffa;
+    color: #004AAD;
     margin: 10px 0 15px;
     letter-spacing: 2px;
     text-align: center;
@@ -24,7 +24,7 @@ export const SignInContainer = styled.div`
   `;
 
   export const ButtonsContainer = styled.div`
-    color: #89cffa;
+    color: #004AAD;
     display: flex;
     flex-direction: column;
     gap: 5px;

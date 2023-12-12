@@ -57,7 +57,7 @@ const FrontSplash = () => {
                 
                 
                 <StyledParagraph>
-                Discover clothes that reflect your individuality and empower you to dress how you feel.. 
+                Discover clothes that reflect your individuality and dress how you feel.. 
                 </StyledParagraph>
                     
             </HeadingContainer>
@@ -69,12 +69,12 @@ const FrontSplash = () => {
                 </SmallHeading>
                 
                 <StyledParagraph>
-                    We're more than just stylish apparel. We're proud to be eco-friendly, supporting recycling efforts and giving back to important causes. 
+                    We're more than just stylish apparel. We're proud to be eco-friendly. 
                 </StyledParagraph>
                 <br/>
 
                 <StyledParagraph>
-                    Join us in making a positive impact on the planet while looking and feeling your best. Together, we can make a difference.
+                    
                 </StyledParagraph>
 
             </BigHeadingContainer>
