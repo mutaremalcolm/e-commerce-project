@@ -2,7 +2,7 @@ import styled from 'styled-components';
 
 
 export const ProductsContainer = styled.div`
-    color: #89cffa;
+    color: #004AAD;;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     column-gap: 10px;

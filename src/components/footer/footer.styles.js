@@ -9,14 +9,14 @@ export const FooterContainer = styled.div`
     justify-content: space-between; 
     align-items: center; 
     gap: 0; 
-    background-color: #89cffa;
+    background-color: #004AAD;
 `;
 
 export const BigFooter = styled.div`
     display: grid;
-    grid-template-columns: repeat(5, 1fr);
+    grid-template-columns: repeat(5, 2fr);
     grid-template-rows: repeat(1, 1fr);
-    grid-column-gap: 30px;
+    grid-column-gap: 20px;
     grid-row-gap: 0px;
 
     margin: 35px 10px 20px 10px; 
@@ -36,7 +36,7 @@ export const BigFooter = styled.div`
 `;
 
 export const ColumnSection1 = styled.div`
-    color: #004AAD;
+    color: #FFFFFF;
 
     @media (max-width: 700px) {
         display: none;
@@ -44,7 +44,7 @@ export const ColumnSection1 = styled.div`
 `;
 
 export const ColumnSection2 = styled.div`
-    color: #004AAD;
+    color: #FFFFFF;
 
     @media (max-width: 700px) {
     display: none;
@@ -52,15 +52,7 @@ export const ColumnSection2 = styled.div`
 `;
 
 export const ColumnSection3 = styled.div`
-    color: #004AAD;
-
-    @media (max-width: 700px) {
-    display: none;
-    }
-`;
-
-export const ColumnSection4 = styled.div`
-    color: #004AAD;
+    color: #FFFFFF;
      
     p{
         margin-top: 13px;
@@ -73,9 +65,9 @@ export const ColumnSection4 = styled.div`
 `;
 
 export const ColumnSectionBig = styled.div`
-    grid-column: 4 / span 2;
-    color: #004AAD;
-    padding-left: 15px;
+    grid-column: 4 / span 7;
+    color: #89cffa;
+    padding-left: 5px;
 
     p{
         margin-top: 10px;
@@ -89,6 +81,7 @@ export const ColumnSectionBig = styled.div`
 
         p{
             text-align: center;
+            color: #89cffa;
         }
     }
 `;
@@ -97,7 +90,7 @@ export const ColumnSectionBig = styled.div`
 
 export const ColumnHeading = styled.div`
     font-weight: 800;
-    color: #004AAD;
+    color: #89cffa;
     
 
     @media (max-width: 700px) {
@@ -110,7 +103,7 @@ export const ColumnHeading = styled.div`
 
 export const ColumnEntry = styled.div`
     padding-bottom: 2px;
-    color: #004AAD;
+    color: #89cffa;
 
     ul{
         margin: 0px;
@@ -123,7 +116,7 @@ export const ColumnEntry = styled.div`
     li{
         padding-bottom: 5px;
         list-style-type: none;
-        color: #004AAD; 
+        color: #89cffa; 
         &:hover {
         color: #0000000;
         cursor: pointer;
@@ -132,7 +125,8 @@ export const ColumnEntry = styled.div`
 `;
 
 export const ImageSection = styled.div`
-        color: #004AAD;
+        grid-column: 5 / span 7;
+        color: #89cffa;
     
     @media (max-width: 700px) {
         text-align: center;

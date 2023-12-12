@@ -14,7 +14,6 @@ import {
     ColumnSection1,
     ColumnSection2,
     ColumnSection3,
-    ColumnSection4,
     ColumnSectionBig,
     ColumnHeading,
     ColumnEntry, 
@@ -31,9 +30,7 @@ const Footer = () => {
     <Fragment>
         
         <FooterContainer>
-
             <BigFooter> 
-
                 {/* Column 1  */}
                 <ColumnSection1>
                     {/* ABOUT US */}
@@ -44,6 +41,8 @@ const Footer = () => {
                         </ul>
                     </ColumnEntry>
                 </ColumnSection1>
+
+                {/* Column 2 */}
                 <ColumnSection2>
                     <ColumnHeading>CUSTOMER SERVICES</ColumnHeading>
                     <ColumnEntry onClick={onNavigateHandler}>
@@ -52,22 +51,26 @@ const Footer = () => {
                             <li>Returns & Cancellations </li>
                         </ul>
                     </ColumnEntry>
-
                 </ColumnSection2>
-                <ColumnSection4>
+
+                {/* Column 3 */}
+                <ColumnSection3>
                     <ColumnHeading>CONTACT US</ColumnHeading>
                     <ColumnEntry>
                         <p><strong>Phone Number:</strong><br/>228-556-445 </p>
                         <br/>
                     </ColumnEntry>
 
-                </ColumnSection4>
+                </ColumnSection3>
+
+                {/* Column 4 */}
                 <ColumnSectionBig>
                     <ColumnHeading>CONNECT WITH ME </ColumnHeading>
 
                     <p>Malcolm Mutare</p>
 
                     <br />
+                 </ColumnSectionBig>
                     <ColumnHeading><br/> SOCIAL MEDIA</ColumnHeading>
                     <ImageSection>
                         <a 
@@ -83,7 +86,7 @@ const Footer = () => {
                                 <BsLinkedin />
                             </ImageContainer>
                         </a>
-                        <a href="https://www.instagram.com/princedevon_za/" target='_blank'>
+                        <a href="https://www.instagram.com/malcolmfullstack/" target='_blank'>
                             <ImageContainer>
                                 <TiSocialInstagram />
                             </ImageContainer>                
@@ -94,7 +97,6 @@ const Footer = () => {
                             </ImageContainer>
                         </a>
                     </ImageSection>  
-                </ColumnSectionBig>
             </BigFooter>     
         </FooterContainer>
 

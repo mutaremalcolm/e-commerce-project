@@ -35,7 +35,7 @@ export const CategoryContainer = styled.div`
 
 
 export const CategoryTitle = styled.h2`
-    color: #FFFFFF;
+    color: #004AAD;
     font-size: 38px;
     margin-bottom: 25px;
     text-align: center;

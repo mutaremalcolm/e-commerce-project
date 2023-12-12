@@ -55,7 +55,7 @@ export const CategoryContainer = styled.div`
     align-items: center;
     justify-content: center;
     border: 1px solid black;
-    background-color: white;
+    background-color: #004AAD;
     opacity: 0.7;
     position: absolute;
 
@@ -63,7 +63,7 @@ export const CategoryContainer = styled.div`
       font-weight: bold;
       margin: 0 6px 0;
       font-size: 22px;
-      font-color: white;
+      font-color: #004AAD;;
     }
 
     p {

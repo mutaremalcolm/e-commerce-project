@@ -28,7 +28,7 @@ export const HeadingContainer = styled.div`
   background-size: cover;
   background-position: center;   */}
   grid-column: 0/ 1;
-  background-color: #89cff0;
+  background-color: #004AAD;
   padding-left: 18px;
   padding-right: 18px;
   padding-bottom: 20px;
@@ -43,7 +43,7 @@ export const HeadingContainer = styled.div`
         margin-top: 10px;
         margin-bottom: 4px;
 
-        color: #52683f;
+        color: #FFFFFF;
         font-weight: bold;
     }
 `;
@@ -52,7 +52,7 @@ export const HeadingContainer = styled.div`
 export const BigHeadingContainer = styled.div`
     grid-row: 0 / 2;
     grid-column: 0 / 2;
-    background-color: #89cffa;
+    background-color: #004AAD;
     border-radius: 10px;
     padding-left: 18px;
     padding-right: 18px;
@@ -79,15 +79,13 @@ export const SmallHeading = styled.div`
     padding-top: 10px;
     padding-bottom: 10px;
     margin-bottom: 20px;
-
-    
     text-align: center;
     text-transform: uppercase;
-    font-family: Audiowide;
+    font-family: Montserrat Classic;
     font-weight: 900;
     font-size: calc(10px + 1vw);
     letter-spacing: 2.5px;
-    color: #004AAD;
+    color: #89cffa;
     border-bottom: 4px ;
     border-color: #004AAD;
 
@@ -96,13 +94,14 @@ export const SmallHeading = styled.div`
 export const StyledParagraph = styled.div`
   /* Shared styles for all <p> tags */  
     font-size: calc(12px + 0.5vw);
+    font-family: Montserrat Classic;
     border-radius: 10px;
     margin-left: 1px;
     margin-top: 10px;
     margin-bottom: 7px;
     font-weight: bold;
     text-align: center;
-    color: #004AAD;
+    color: #89cffa;
 `;
 
 
@@ -118,7 +117,7 @@ export const SaleBanner = styled.div`
   height: 60px;
   border: 1px none #66804e;
   border-radius: 10px;
-  background-color: #89cff0;
+  background-color: #004AAD;
   opacity: 0.7;
   justify-content: center;
   align-content: spacearound;
@@ -126,7 +125,7 @@ export const SaleBanner = styled.div`
 
 
 export const SaleHeading = styled(StyledParagraph)`
-    color: #004AAD;
+    color: #FFFFFF;
     font-family: Montserrat Classic;
     font-size: calc(0.8rem + 1vw);
     font-weight: 900;
@@ -151,7 +150,7 @@ export const SloganContainer = styled.div`
     padding-top: 3px;
     padding-bottom: 3px;
     
-    font-family: Audiowide;
+    font-family: Montserrat Classic;
     font-weight: bold;
     font-size: calc(10px + 1vw);
     
