@@ -110,7 +110,7 @@ const firebaseConfig = {
   };
 
   export const signOutUser = async () => await signOut(auth);  {
-    alert('Sign-out successful!');
+    // alert('Sign-out successful!');
   };
 
 

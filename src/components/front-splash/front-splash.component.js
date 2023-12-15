@@ -1,10 +1,10 @@
 import React, { Fragment} from "react";
 import { useNavigate } from 'react-router-dom';
-// import hero1 from '../../assets/Hero_Section/hero1.jpg';
+// import hero1 from '../../assets/Hero_Section/';
 
 import { EmblaCarousel } from "../carousel/carousel.component";
 
-// import { ReactComponent as EarthLogo } from '../../assets/recyclingsymbol.svg';
+// import  { RecyclingSymbol }  from '../../assets';
 
 import Button from "../button/button.component";
 
@@ -81,9 +81,8 @@ const FrontSplash = () => {
                     We're more than just stylish apparel. We're proud to be eco-friendly.<br/>
                     We make an effort to source products that use recyled materials while maintaining quality standards.
                 </StyledParagraph>
-                {/* <EarthLogo /> */}
+                {/* <RecyclingSymbol src = { RecyclingSymbol } alt='logo' /> */}
             </BigHeadingContainer>
-
         </FrontSplashContainer>
     </Fragment>
   );
