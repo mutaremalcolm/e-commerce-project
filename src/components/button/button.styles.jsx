@@ -1,12 +1,11 @@
 import styled from 'styled-components';
 
 export const BaseButton = styled.button`
-    min-width: 25%; 
-    width: auto; 
+    width: 100%;  
     height: 50px; 
     letter-spacing: 0.5px; 
     line-height: 50px; 
-    padding: 0 35px 0 35px; 
+    padding: 0 1.5em 0 1.5em; 
     font-size: 15px; 
     background-color: #004AAD;; 
     color: white; 
@@ -39,7 +38,7 @@ export const BaseButton = styled.button`
         }
         
         @media only screen and (max-width: 768px) {
-            padding: 5px 20px 5px 20px;
+            padding: 0.5em 1em 0.5em 1em;
             font-size: 12px;
           };
           `
@@ -56,7 +55,7 @@ export const InvertedButton = styled(BaseButton)`
     } 
 
     @media only screen and (max-width: 768px) {
-    padding: 5px 20px 5px 20px;
+    padding: 0.5em 1em 0.5em 1em;
     font-size: 12px;
   }
 `;

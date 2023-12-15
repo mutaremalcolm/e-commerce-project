@@ -47,6 +47,8 @@ export const NavLink = styled(Link)`
     color: #004AAD;
     padding: 10px 15px; 
     cursor: pointer;
+    font-size: 19px; 
+    font-weight: bold;
     `;
 
 
