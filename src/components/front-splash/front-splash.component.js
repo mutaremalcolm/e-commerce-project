@@ -1,10 +1,9 @@
 import React, { Fragment} from "react";
 import { useNavigate } from 'react-router-dom';
-// import hero1 from '../../assets/Hero_Section/';
 
 import { EmblaCarousel } from "../carousel/carousel.component";
 
-// import  { RecyclingSymbol }  from '../../assets';
+// import  {  RecyclingSymbol }  from '../../assets/Carousel_Images/'
 
 import Button from "../button/button.component";
 
