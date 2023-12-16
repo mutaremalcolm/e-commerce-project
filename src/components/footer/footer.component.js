@@ -14,6 +14,8 @@ import {
     ColumnSection1,
     ColumnSection2,
     ColumnSection3,
+    ColumnSection4,
+    ColumnSection5,
     ColumnSectionBig,
     ColumnHeading,
     ColumnEntry, 
@@ -64,12 +66,17 @@ const Footer = () => {
                 </ColumnSection3>
 
                 {/* Column 4 */}
-                <ColumnSectionBig>
+                <ColumnSection4>
+                {/* <ColumnSectionBig> */}
                     <ColumnHeading>CONNECT WITH ME </ColumnHeading>
 
                     <p>Malcolm Mutare</p>
 
                     <br />
+                {/* </ColumnSectionBig> */}
+                </ColumnSection4>
+                <ColumnSection5>
+                {/* <ColumnSectionBig> */}
                     <ColumnHeading><br/> SOCIAL MEDIA</ColumnHeading>
                     <ImageSection>
                         <a 
@@ -96,7 +103,8 @@ const Footer = () => {
                             </ImageContainer>
                         </a>
                     </ImageSection>
-                    </ColumnSectionBig>  
+                    {/* </ColumnSectionBig> */}
+                    </ColumnSection5>
             </BigFooter>     
         </FooterContainer>
 
