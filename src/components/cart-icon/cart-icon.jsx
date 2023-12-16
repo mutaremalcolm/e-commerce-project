@@ -18,6 +18,12 @@ export const CartIconContainer = styled.div`
     justify-content: center; 
     cursor: pointer;
 
+    svg {
+    filter: invert(47%) sepia(6%) saturate(0%) hue-rotate(214deg) brightness(85%) contrast(75%);
+    width: 38px;
+    height: 38px;
+  }
+
     @media only screen and (max-width: 768px) {
     width: 35px;
     height: 35px;

@@ -8,15 +8,15 @@ export const FooterContainer = styled.div`
     flex-direction: column;
     justify-content: space-between; 
     align-items: center; 
-    gap: 0; 
+    gap: 0;  
     background-color: #004AAD;
 `;
 
 export const BigFooter = styled.div`
     display: grid;
-    grid-template-columns: repeat(5, 2fr);
+    grid-template-columns: repeat(5, 1fr);
     grid-template-rows: repeat(1, 1fr);
-    grid-column-gap: 20px;
+    grid-column-gap: 15px;
     grid-row-gap: 0px;
 
     margin: 35px 10px 20px 10px; 
@@ -64,8 +64,33 @@ export const ColumnSection3 = styled.div`
     }
 `;
 
+export const ColumnSection4 = styled.div`
+    color: #FFFFFF;
+     
+    p{
+        margin-top: 13px;
+        margin-bottom: -7px;
+    }
+
+    @media (max-width: 700px) {
+        display: none;
+    }
+`;
+
+export const ColumnSection5 = styled.div`
+    color: #FFFFFF;
+     
+    ${'' /* p{
+        margin-top: 13px;
+        margin-bottom: -7px;
+    } */}
+
+    @media (max-width: 700px) {
+        display: none;
+    }
+`;
 export const ColumnSectionBig = styled.div`
-    ${'' /* grid-column: 4 / span 4; */}
+    grid-column: 5 / span 5;
     color: #89cffa;
     padding-left: 5px;
 

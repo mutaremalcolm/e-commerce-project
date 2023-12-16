@@ -105,6 +105,7 @@ export const StyledParagraph = styled.div`
 `;
 
 export const ButtonsContainer = styled.button`
+    color: #89cffa;
     width: auto;
     padding: 10px 20px;
     font-color: #004AAD;
