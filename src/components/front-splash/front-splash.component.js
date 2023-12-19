@@ -5,7 +5,7 @@ import { EmblaCarousel } from "../carousel/carousel.component";
 
 // import  {  RecyclingSymbol }  from '../../assets/Carousel_Images/'
 
-import Button from "../button/button.component";
+import Button  from "../button/button.component";
 
  
 import { 

@@ -10,6 +10,13 @@ export const CategoryPreviewContainer = styled.div`
     font-size: 28px;
     margin-bottom: 25px;
     cursor: pointer;
+
+    @media only screen and (max-width: 768px) {
+  .title {
+    font-size: 20px; // Adjust font size for mobile
+    margin-bottom: 15px; // Adjust margin for mobile
+  }
+}
   }
 
   .preview {
