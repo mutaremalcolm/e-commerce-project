@@ -11,12 +11,6 @@ export const CategoryPreviewContainer = styled.div`
     margin-bottom: 25px;
     cursor: pointer;
 
-    @media only screen and (max-width: 768px) {
-  .title {
-    font-size: 20px; // Adjust font size for mobile
-    margin-bottom: 15px; // Adjust margin for mobile
-  }
-}
   }
 
   .preview {
@@ -24,6 +18,12 @@ export const CategoryPreviewContainer = styled.div`
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     column-gap: 20px;
+
+    /* Media query for smaller screens */
+    @media (max-width: 768px) { /* Adjust breakpoint as needed */
+      grid-template-columns: repeat(2, 1fr); /* Show 2 items per row */
+    }
   }
+
 `;
 

@@ -6,6 +6,7 @@ import { CategoryPreviewContainer } from './category-preview.styles';
 
 const CategoryPreview = ({ title, products }) => {
     return (
+        <>
         <CategoryPreviewContainer>
             <h2>
                 <Link className='title' to={title}>{title.toUpperCase()}</Link>
@@ -20,6 +21,7 @@ const CategoryPreview = ({ title, products }) => {
 
             </div>
         </CategoryPreviewContainer> 
+        </>
     )
 }
 
