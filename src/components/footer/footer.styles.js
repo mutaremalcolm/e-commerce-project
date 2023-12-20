@@ -11,7 +11,6 @@ export const FooterContainer = styled.div`
     gap: 0;  
     background-color: #004AAD;
 
-    
 `;
 
 export const BigFooter = styled.div`
@@ -40,10 +39,18 @@ export const BigFooter = styled.div`
 export const ColumnSection1 = styled.div`
     color: #FFFFFF;
 
+    @media (max-width: 700px) {
+        display: none;
+    }
+
 `;
 
 export const ColumnSection2 = styled.div`
     color: #FFFFFF;
+
+    @media (max-width: 700px) {
+        display: none;
+    }
 
 `;
 
@@ -55,23 +62,27 @@ export const ColumnSection3 = styled.div`
         margin-bottom: -7px;
     }
 
+    @media (max-width: 700px) {
+        display: none;
+    }
+
 `;
 
 export const ColumnSection4 = styled.div`
+    display: flex-column;
     color: #FFFFFF;
      
     p{
         margin-top: 13px;
         margin-bottom: -7px;
     }
-
 `;
 
 export const ColumnSection5 = styled.div`
         display: flex-column;
         justify-content: start;
         color: #FFFFFF;
-        margin-top: 0px;
+        margin-top: 13px;
         margin-bottom: -7px;
     
 

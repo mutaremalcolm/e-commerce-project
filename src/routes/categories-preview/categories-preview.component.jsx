@@ -1,5 +1,7 @@
 import { Fragment } from 'react';
 
+import Footer from '../../components/footer/footer.component';
+
 import { useSelector } from 'react-redux';
 
 import { selectCategoriesMap } from '../../store/user/categories/category.selector';
@@ -19,6 +21,7 @@ const CategoriesPreview = () => {
                     
 
         })}
+        <Footer />
          </ Fragment>
     )
 }
