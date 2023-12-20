@@ -72,7 +72,7 @@ const Footer = () => {
 
                     <p>Malcolm Mutare</p>
 
-                    <br />
+                    {/* <br /> */}
                 {/* </ColumnSectionBig> */}
                 </ColumnSection4>
                 <ColumnSection5>
@@ -107,7 +107,6 @@ const Footer = () => {
                     </ColumnSection5>
             </BigFooter>     
         </FooterContainer>
-
     </Fragment>
   )
 }
