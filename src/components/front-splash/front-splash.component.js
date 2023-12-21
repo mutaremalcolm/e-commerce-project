@@ -64,10 +64,10 @@ const FrontSplash = () => {
                 Discover clothes that reflect your individuality and dress how you feel..<br/>
                 We aim to keep you updated with current trends, Click and Read More...<br/>
                 </StyledParagraph>
-                <ButtonsContainer>
+                {/* <ButtonsContainer>
                 <Button onClick={() => window.open('https://www.rebeccajacobs.style/blog', '_blank')}>Fashion Tips</Button>
                 </ButtonsContainer>
-                    
+                     */}
             </HeadingContainer>
 
             <BigHeadingContainer>

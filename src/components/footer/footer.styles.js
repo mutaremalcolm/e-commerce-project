@@ -17,7 +17,7 @@ export const BigFooter = styled.div`
     display: grid;
     grid-template-columns: repeat(5, 1fr);
     grid-template-rows: repeat(1, 1fr);
-    grid-column-gap: 15px;
+    grid-column-gap: 10px;
     grid-row-gap: 0px;
 
     margin: 35px 10px 20px 10px; 
@@ -79,13 +79,8 @@ export const ColumnSection4 = styled.div`
 `;
 
 export const ColumnSection5 = styled.div`
-        display: flex-column;
-        justify-content: start;
+        margin-top: 0px;
         color: #FFFFFF;
-        margin-top: 13px;
-        margin-bottom: -7px;
-    
-
 `;
 export const ColumnSectionBig = styled.div`
     grid-column: 5 / span 5;
@@ -116,6 +111,7 @@ export const ColumnHeading = styled.div`
     grid-column: 5 / span 5;
     font-weight: 800;
     color: #89cffa;
+    margin-top: 0px;
     
 
     @media (max-width: 700px) {
@@ -150,7 +146,7 @@ export const ColumnEntry = styled.div`
 `;
 
 export const ImageSection = styled.div`
-        grid-column: 5 / span 7;
+        grid-column: 5 / span 5;
         color: #89cffa;
     
     @media (max-width: 700px) {
@@ -166,7 +162,7 @@ export const ImageContainer = styled.div`
     width: 2.5rem; 
     height: 2.5rem; 
 
-    ${'' /* padding-top: 30px; */}
+    padding-top: 20px;
     padding-bottom: 40px;
     
     font-size: 1.8rem;

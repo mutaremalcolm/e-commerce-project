@@ -67,16 +67,14 @@ const Footer = () => {
 
                 {/* Column 4 */}
                 <ColumnSection4>
-                {/* <ColumnSectionBig> */}
                     <ColumnHeading>CONNECT WITH ME </ColumnHeading>
 
                     <p>Malcolm Mutare</p>
 
-                    {/* <br /> */}
-                {/* </ColumnSectionBig> */}
                 </ColumnSection4>
+
+                {/* Column 5 */}
                 <ColumnSection5>
-                {/* <ColumnSectionBig> */}
                     <ColumnHeading><br/> SOCIAL MEDIA</ColumnHeading>
                     <ImageSection>
                         <a 
@@ -103,7 +101,6 @@ const Footer = () => {
                             </ImageContainer>
                         </a>
                     </ImageSection>
-                    {/* </ColumnSectionBig> */}
                     </ColumnSection5>
             </BigFooter>     
         </FooterContainer>
